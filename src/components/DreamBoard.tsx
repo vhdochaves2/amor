@@ -22,9 +22,7 @@ const DEFAULT_DREAMS: Dream[] = [
   { id: "4", text: "Casar 💍", color: COLORS[3] },
   { id: "5", text: "Abrir um negócio juntos 💼", color: COLORS[0] },
   { id: "6", text: "Ter uma horta 🌱", color: COLORS[1] },
-  { id: "7", text: "Correr uma maratona juntos 🏃", color: COLORS[2] },
   { id: "8", text: "Aprender um idioma novo 🗣️", color: COLORS[3] },
-  { id: "9", text: "Ter filhos 👶", color: COLORS[0] },
 ];
 
 const STORAGE_KEY = "couple-dream-board";
