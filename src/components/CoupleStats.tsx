@@ -1,25 +1,19 @@
 import { motion } from "framer-motion";
 import { TrendingUp } from "lucide-react";
 
-const START_DATE = new Date("2024-06-14");
+const START_DATE = new Date("2023-06-08");
 
 function getStats() {
   const now = new Date();
   const diff = now.getTime() - START_DATE.getTime();
   const days = Math.floor(diff / (1000 * 60 * 60 * 24));
-  const hours = days * 24;
+  const hours = Math.floor(diff / (1000 * 60 * 60));
   const heartbeats = Math.floor(hours * 60 * 72); // ~72 bpm
-  const kisses = days * 8; // estimate
-  const hugs = days * 6;
-  const laughs = days * 15;
 
   return [
     { label: "Dias juntos", value: days.toLocaleString("pt-BR"), emoji: "📅" },
     { label: "Horas de amor", value: hours.toLocaleString("pt-BR"), emoji: "⏰" },
     { label: "Batimentos por você", value: heartbeats.toLocaleString("pt-BR"), emoji: "💓" },
-    { label: "Beijos (estimativa)", value: kisses.toLocaleString("pt-BR"), emoji: "💋" },
-    { label: "Abraços (estimativa)", value: hugs.toLocaleString("pt-BR"), emoji: "🤗" },
-    { label: "Risadas juntos", value: laughs.toLocaleString("pt-BR"), emoji: "😂" },
   ];
 }
 

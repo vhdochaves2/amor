@@ -19,7 +19,7 @@ const DEFAULT_DREAMS: Dream[] = [
   { id: "1", text: "Morar juntos 🏠", color: COLORS[0] },
   { id: "2", text: "Ter um pet 🐶", color: COLORS[1] },
   { id: "3", text: "Viajar pelo mundo 🌎", color: COLORS[2] },
-  { id: "4", text: "Casar na praia 💍", color: COLORS[3] },
+  { id: "4", text: "Casar 💍", color: COLORS[3] },
   { id: "5", text: "Abrir um negócio juntos 💼", color: COLORS[0] },
   { id: "6", text: "Ter uma horta 🌱", color: COLORS[1] },
   { id: "7", text: "Correr uma maratona juntos 🏃", color: COLORS[2] },

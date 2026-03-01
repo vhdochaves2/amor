@@ -94,23 +94,19 @@ export function CountdownSection() {
               </button>
               <p className="text-3xl mb-2">{countdown.emoji}</p>
               <h3 className="font-display text-lg font-semibold">{countdown.title}</h3>
-              {time.passed ? (
-                <p className="text-sm mt-2 opacity-90">🎉 Já aconteceu!</p>
-              ) : (
-                <div className="flex gap-4 mt-3">
-                  {[
-                    { val: time.days, label: "dias" },
-                    { val: time.hours, label: "h" },
-                    { val: time.minutes, label: "min" },
-                    { val: time.seconds, label: "s" },
-                  ].map((item) => (
-                    <div key={item.label} className="text-center">
-                      <p className="text-2xl font-bold font-body">{item.val}</p>
-                      <p className="text-xs opacity-80">{item.label}</p>
-                    </div>
-                  ))}
-                </div>
-              )}
+              <div className="flex gap-4 mt-3">
+                {[
+                  { val: time.days, label: "dias" },
+                  { val: time.hours, label: "h" },
+                  { val: time.minutes, label: "min" },
+                  { val: time.seconds, label: "s" },
+                ].map((item) => (
+                  <div key={item.label} className="text-center">
+                    <p className="text-2xl font-bold font-body">{item.val}</p>
+                    <p className="text-xs opacity-80">{item.label}</p>
+                  </div>
+                ))}
+              </div>
               <p className="text-xs opacity-70 mt-3">
                 {new Date(countdown.date).toLocaleDateString("pt-BR")}
               </p>

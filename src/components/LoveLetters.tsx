@@ -81,9 +81,6 @@ export function LoveLetters() {
             <div className="relative bg-card border border-border rounded-lg p-5 hover:shadow-romantic transition-shadow">
               <div className="flex items-center justify-between mb-3">
                 <span className="text-2xl">{letter.from}</span>
-                <span className="text-xs text-muted-foreground font-body">
-                  {new Date(letter.date).toLocaleDateString("pt-BR")}
-                </span>
               </div>
               <AnimatePresence>
                 {open === letter.id ? (
