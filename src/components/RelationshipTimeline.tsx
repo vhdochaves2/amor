@@ -27,6 +27,11 @@ export function RelationshipTimeline() {
         </h2>
       </div>
       <p className="text-muted-foreground font-body">A história do nosso amor 💫</p>
+      <div className="bg-primary/10 border border-primary/20 rounded-lg p-4 text-center">
+        <p className="text-sm text-primary font-body font-medium">
+          Salvar datas na próxima att - segunda 02/03 📅
+        </p>
+      </div>
 
       <div className="relative">
         {/* Timeline line */}

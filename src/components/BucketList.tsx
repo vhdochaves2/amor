@@ -12,9 +12,7 @@ const DEFAULT_ITEMS: BucketItem[] = [
   { id: "1", text: "Assistir o nascer do sol juntos", done: false },
   { id: "2", text: "Viajar para a Europa", done: false },
   { id: "3", text: "Ter nosso próprio lar", done: false },
-  { id: "4", text: "Aprender a cozinhar juntos", done: true },
   { id: "5", text: "Acampar sob as estrelas", done: false },
-  { id: "6", text: "Dançar na chuva", done: true },
   { id: "7", text: "Fazer uma road trip", done: false },
   { id: "8", text: "Plantar uma árvore juntos", done: false },
 ];

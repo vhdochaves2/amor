@@ -11,7 +11,7 @@ interface Secret {
 const DEFAULT_SECRETS: Secret[] = [
   { id: "1", message: "Eu sabia que te amava desde o primeiro dia 💕", revealed: false },
   { id: "2", message: "Você é a primeira pessoa em quem penso ao acordar 🌅", revealed: false },
-  { id: "3", message: "Guardo todas as nossas fotos na pasta favorita do celular 📱", revealed: false },
+  { id: "3", message: "Amo cada foto que tenho no celular sobre voce 📱", revealed: false },
   { id: "4", message: "Meu coração acelera quando vejo sua mensagem 💌", revealed: false },
   { id: "5", message: "Já sonhei com nosso casamento várias vezes 💍", revealed: false },
 ];

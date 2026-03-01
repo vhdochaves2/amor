@@ -51,36 +51,9 @@ export function LoveReasons() {
       </h2>
 
       <div className="min-h-[80px] flex items-center justify-center">
-        <motion.p
-          key={currentIndex}
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          exit={{ opacity: 0, y: -20 }}
-          className="font-display text-xl md:text-2xl text-foreground italic"
-        >
-          "{reasons[currentIndex]}"
-        </motion.p>
-      </div>
-
-      <p className="text-sm text-muted-foreground">
-        {currentIndex + 1} de {reasons.length} razões 💕
-      </p>
-
-      <div className="flex gap-2 max-w-md mx-auto">
-        <input
-          type="text"
-          value={newReason}
-          onChange={(e) => setNewReason(e.target.value)}
-          placeholder="Adicionar nova razão..."
-          className="flex-1 rounded-md border border-input bg-background px-3 py-2 text-sm text-foreground placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-ring"
-          onKeyDown={(e) => e.key === "Enter" && addReason()}
-        />
-        <button
-          onClick={addReason}
-          className="gradient-romantic text-primary-foreground rounded-md px-4 py-2 text-sm font-medium hover:opacity-90 transition-opacity"
-        >
-          💕
-        </button>
+        <p className="font-display text-xl md:text-2xl text-muted-foreground italic">
+          Em manutenção... voltamos em breve! 🔧
+        </p>
       </div>
     </section>
   );
