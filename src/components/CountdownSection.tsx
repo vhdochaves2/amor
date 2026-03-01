@@ -10,7 +10,7 @@ interface CountdownItem {
 }
 
 const DEFAULT_COUNTDOWNS: CountdownItem[] = [
-  { id: "aniversario", title: "Nosso Aniversário", emoji: "💕", date: "2026-07-28" },
+  { id: "aniversario", title: "Nosso Aniversário", emoji: "💕", date: "2026-07-28T00:00:00-03:00" },
 ];
 
 const STORAGE_KEY = "couple-countdowns";
